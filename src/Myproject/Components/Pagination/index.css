@@ -1,0 +1,62 @@
+/* Button */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btn.primary {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn.secondary {
+    background-color: #ccc;
+    color: white;
+  }
+  
+  .btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Input */
+  .input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .input.primary-input {
+    border-color: #4caf50;
+  }
+  
+  /* Card */
+  .card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 300px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
